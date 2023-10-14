@@ -1,0 +1,133 @@
+/* Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado con Bootstrap */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Estilos de Bootstrap para el menú de navegación */
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+/* Estilos de Bootstrap para los enlaces del menú de navegación */
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos generales para las secciones */
+.section {
+    padding: 40px;
+}
+
+/* Sección Sobre Mí */
+#sobre-mi {
+    background-color: #fff;
+}
+
+/* Sección Proyectos con Bootstrap */
+#proyectos {
+    background-color: #f4f4f4;
+}
+
+/* Estilos de Bootstrap para proyectos */
+.proyecto {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.proyecto img {
+    max-width: 100%;
+}
+
+/* Sección Contacto con Bootstrap */
+#contacto {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos de Bootstrap para la lista de contactos */
+#contacto ul {
+    list-style: none;
+}
+
+#contacto ul li {
+    margin-bottom: 10px;
+}
+
+#contacto ul li a {
+    color: #fff;
+}
+
+/* Pie de página con Bootstrap */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Estilos para vínculos */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    header nav ul li {
+        margin-right: 10px;
+    }
+
+    .proyecto {
+        padding: 10px;
+    }
+}
+img.linkedin-icon {
+    width: 50px;
+    margin-left: 2%;
+    
+    /* Ajusta el ancho según tu preferencia */
+    height: 50px;
+    /* Ajusta la altura según tu preferencia */
+}
+img.mail-icon {
+    width: 50px;
+margin-left: 2%;
+
+    /* Ajusta el ancho según tu preferencia */
+    height: 50px;
+    /* Ajusta la altura según tu preferencia */
+}
